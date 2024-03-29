@@ -9,10 +9,14 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
+    "@repo/db": "workspace:*",
+    "@repo/store": "workspace:*",
     "@repo/ui": "*",
+    "@types/bcrypt": "^5.0.2",
     "next": "^14.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "recoil": "^0.7.7"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.1.1",

@@ -1,0 +1,10 @@
+{
+  "name": "@repo/store",
+  "packageManager": "yarn@3.2.1",
+  "exports": {
+    "./useBalance": "./src/hooks/useBalance.ts"
+  },
+  "dependencies": {
+    "recoil": "^0.7.7"
+  }
+}
